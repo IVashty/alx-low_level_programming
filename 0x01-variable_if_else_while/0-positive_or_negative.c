@@ -3,7 +3,8 @@
 #include  <stdio.h>
 
 /**
- *main-different return values stored in the variable n
+ *main-block of code
+ *Description:different return values stored in the variable n
  *should either be either positive or negative or zero
  *every time you will run this program
  *Return : always is 0
