@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
  * main - main block of code
- * Description:a program that prints the alphabet of hexadecimal base 16 in
+ * Description:a program that prints the alphabet and hexadecimal base 16 in
  *lowercase,followed by a new line using the putchar function.
  * Return:0(Success)
  */
 int main(void)
 {
 char v;
-for (v = 'a'; v <= 'f'; v++)
+for (v = '0' <= '9'; v = 'a' <= 'f'; v++)
 {
 putchar(v);
 }
