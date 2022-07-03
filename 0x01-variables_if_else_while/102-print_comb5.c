@@ -13,7 +13,7 @@ int v;
 int o;
 for (v = 0; v <= 100; v++)
 {
-for (o = 1; o <= 100; o++)
+for (o = 0; o <= 100; o++)
 {
 if (v < o)
 {
