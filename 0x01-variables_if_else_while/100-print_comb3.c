@@ -13,7 +13,7 @@ for (v = '0'; v <= '9'; v++)
 {
 for (o = '1'; o <= '9'; o++)
 {
-if (v > o)
+if (o > v)
 {
 putchar(v);
 putchar(o);
