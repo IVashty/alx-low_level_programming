@@ -21,10 +21,10 @@ for (t = '2'; t <= '9'; t++)
 if (o > v && t > v && t > o)
 {
 putchar(v);
-putchar(o);
+putchar(v);
 putchar(' ');
 putchar(v);
-putchar(t);
+putchar(o);
 if (v != '7' || o != '8' || t != '9')
 {
 putchar(',');
