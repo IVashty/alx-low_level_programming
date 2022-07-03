@@ -11,25 +11,21 @@ int main(void)
 {
 int v;
 int o;
-int t;
 for (v = '0'; v <= '9'; v++)
 {
-for (o = '1'; o <= '9'; o++)
+for (o = '0'; o <= '9'; o++)
 {
-for (t = '2'; t <= '9'; t++)
+if (v < o)
 {
-if (o > v && t > v && t > o)
-{
-putchar(v);
-putchar(v);
+putchar(v / 10 + '0');
+putchar(v % 10 + '0');
 putchar(' ');
-putchar(v);
-putchar(o);
-if (v != '7' || o != '8' || t != '9')
+putchar(o / 10 + '0');
+putchar(o % 10 + '0');
+if (v != '8' || o != '9')
 {
 putchar(',');
 putchar(' ');
-}
 }
 }
 }
