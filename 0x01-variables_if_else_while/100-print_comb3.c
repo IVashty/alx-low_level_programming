@@ -17,8 +17,7 @@ if (o > v)
 {
 putchar(v);
 putchar(o);
-
-if (v != 8 || 0 != 9)
+if (v != '8' || o != '9')
 {
 putchar(',');
 putchar(' ');
