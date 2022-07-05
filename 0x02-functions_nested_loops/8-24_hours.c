@@ -10,6 +10,13 @@ void jack_bauer(void)
 
 while (m < 24 * 60)
 {
+_putchar(t + '0');
+_putchar(w + '0');
+_putchar(':');
+_putchar(h + '0');
+_putchar(r + '0');
+_putchar('\n');
+
 r++;
 if (r > 9)
 {
@@ -28,10 +35,4 @@ t++;
 }
 m++;
 }
-_putchar(t + '0');
-_putchar(w + '0');
-_putchar(':');
-_putchar(h + '0');
-_putchar(r + '0');
-_putchar('\n');
 }
