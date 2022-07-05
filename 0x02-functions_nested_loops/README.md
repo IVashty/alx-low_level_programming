@@ -1,7 +1,13 @@
 ###TASKS###
-0. A program that prints _putchar, followed by a new line.
+0. A program that prints \_putchar, followed by a new line.
 -The program should return 0
 
 1. A function that prints the alphabet, in lowercase, followed by a new line.
 -Prototype: void print_alphabet(void);
--You can only use _putchar twice in your code
+-You can only use \_putchar twice in your code
+
+2. A  function that prints 10 times the alphabet, in lowercase, followed by a new line.
+-Prototype: void print_alphabet_x10(void);
+-You can only use \_putchar twice in your code
+
+
