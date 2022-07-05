@@ -45,3 +45,10 @@
 ### Haaaaaaa The 24 one of best series
 -Prototype: void jack_bauer(void);
 -You can listen to this soundtrack while coding :)
+
+
+9. A function that prints the 9 times table, starting with 0.
+-Prototype: void times_table(void);
+-Format: see example
+
+
