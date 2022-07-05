@@ -8,7 +8,8 @@
 /*
  * int main(void)
  */
-void print_alphabet(void)
+void print_alphabet(void);
+int main(void)
 {
 int v;
 for (v = 'a'; v <= 'z'; v++)
@@ -16,7 +17,6 @@ for (v = 'a'; v <= 'z'; v++)
 _putchar(v);
 }
 _putchar('\n');
-/*
- * return (0);
- */
+
+return (0);
 }
