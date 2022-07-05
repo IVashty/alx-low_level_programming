@@ -1,0 +1,6 @@
+#!/bin/bash
+function mygit(){
+        git add .
+        git commit -m '$*'
+        git push
+}
