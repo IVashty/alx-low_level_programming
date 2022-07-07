@@ -15,7 +15,7 @@ while (f < 10)
 while (v < 15)
 {
 v = 0;
-if (v > 15)
+if (v > 9)
 _putchar(v / 10  + '0');
 _putchar(v % 10 + '0');
 v++;
