@@ -10,6 +10,8 @@ void more_numbers(void)
 int v;
 int f;
 f = 0;
+while (f < 10)
+{
 while (v < 15)
 {
 v = 0;
@@ -20,5 +22,6 @@ v++;
 }
 f++;
 _putchar('\n');
+}
 }
 
