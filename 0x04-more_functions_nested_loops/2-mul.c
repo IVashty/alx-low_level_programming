@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * mul -multiply two integer numbers
  * @a:int number type
  * @b:int number type
