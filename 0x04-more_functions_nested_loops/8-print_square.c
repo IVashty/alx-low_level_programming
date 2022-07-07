@@ -16,7 +16,7 @@ else
 {
 for (v = 0; v < size; v++)
 {
-for (f = 0; f < v; f++)
+for (f = 0; f < size; f++)
 _putchar(35);
 _putchar('\n');
 }
