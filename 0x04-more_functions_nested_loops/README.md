@@ -14,4 +14,5 @@
 
             FYI: The standard library provides a similar function: isdigit. Run man isdigit to learn more.
 
+2. A function that multiplies two integers.
 
