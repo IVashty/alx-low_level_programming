@@ -9,14 +9,15 @@
 void print_triangle(int size)
 {
 if (size <= 0)
+{
 _putchar('\n');
+}
 else
 {
-int v;
-int f;
-for (v = 0; v < size; v++)
+int v, f;
+for (v = 1; v <= size; v++)
 {
-for (f = 0; f < size; f++)
+for (f = v; f < size; f++)
 {
 _putchar(' ');
 }
@@ -24,9 +25,8 @@ for (f = 1; f <= v; f++)
 {
 _putchar(35);
 }
+
 _putchar('\n');
 }
 }
 }
-
-
