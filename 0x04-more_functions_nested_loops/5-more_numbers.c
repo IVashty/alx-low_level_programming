@@ -9,19 +9,19 @@ void more_numbers(void)
 {
 int v;
 int f;
-f = 0;
-while (f < 10)
-{
-while (v < 15)
-{
+
 v = 0;
-if (v > 9)
-_putchar(v / 10  + '0');
-_putchar(v % 10 + '0');
-v++;
-}
+while (v < 10)
+{
+f = 0;
+while (f < 15)
+{
+if (f > 9)
+_putchar(f / 10 + '0');
+_putchar(f % 10 + '0');
 f++;
+}
+v++;
 _putchar('\n');
 }
 }
-
