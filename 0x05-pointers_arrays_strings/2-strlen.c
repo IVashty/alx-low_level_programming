@@ -8,12 +8,9 @@
 
 int _strlen(char *s)
 {
-/*
- * char s[] = "Return String's length
- */
 int v;
 
-for (v = 0; s[v] != '\0'; ++v)
+for (v = 0; *s != '\0'; ++v)
 v += 1;
 
 return (v);
