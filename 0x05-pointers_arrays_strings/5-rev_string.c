@@ -20,6 +20,7 @@ a = v;
 r = 0;
 f = a / 2;
 for (v--; r < f; r++)
+;
 {
 str = s[r];
 s[r] = s[v];
