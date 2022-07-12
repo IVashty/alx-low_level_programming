@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int _strlen(char *);
+int _strlen(char *s);
 
 /**
  *main - check the code for Holberton School students.
