@@ -11,13 +11,15 @@ int v;
 int r;
 int a;
 char str;
+int f;
 
 for (v = 0; s[v] != '\0'; v++)
 ;
 
 a = v;
 r = 0;
-for (v--; r < a / 2; r++)
+f = a / 2;
+for (v--; r < f; r++)
 {
 str = s[r];
 s[r] = s[v];
