@@ -19,9 +19,9 @@ for (v = 0; s[v] != '\0'; v++)
 a = v;
 for (v--, r = 0; r < a / 2; v--, r++)
 {
-str = s[r];
-s[r] = s[v];
-s[v] = str;
+str = s[v - r -1 ];
+s[v - r - 1] = s[r];
+s[r] = str;
 }
 
 _putchar('\n');
