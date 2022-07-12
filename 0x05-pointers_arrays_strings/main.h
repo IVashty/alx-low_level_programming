@@ -3,6 +3,7 @@
 
 int _putchar(char c);
 int main(void);
+int _strlen(char *);
 
 
 void reset_to_98(int *n);
