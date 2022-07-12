@@ -14,11 +14,10 @@ int v;
 
 for (v = 0; s[v] != '\0'; v++)
 {
-_putchar(s[v]);
-}
 for (v--; v >= 0; v--)
 {
 _putchar(s[v]);
+}
 }
 
 _putchar('\n');
