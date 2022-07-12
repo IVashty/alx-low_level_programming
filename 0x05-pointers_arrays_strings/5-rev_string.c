@@ -12,20 +12,12 @@ int v;
 int r;
 int a;
 char str;
-int f;
 
 v = 0;
 for (v = 0; s[v] != '\0'; v++)
 ;
-
-a = v - 1;
-r = 0;
-f = a / 2;
-v -= 1;
-
-
-for (v--; r < f; r++)
-;
+a = v;
+for (v--, r = 0; r < a / 2; v--, r++)
 {
 str = s[r];
 s[r] = s[v];
