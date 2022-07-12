@@ -16,7 +16,8 @@ for (v = 0; s[v] != '\0'; v++)
 ;
 
 a = v;
-for (v--, r = 0; r < a / 2; r++)
+r = 0;
+for (v--; r < a / 2; r++)
 {
 str = s[r];
 s[r] = s[v];
