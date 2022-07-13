@@ -19,8 +19,10 @@ for (v = 0; dest[0] != '\0'; v++)
 for (a = 0; src[a] != '\0'; a++)
 {
 dest[v] = src[a];
+v++;
+
 }
 
-
+dest[v]  = '\0';
 return (dest);
 }
