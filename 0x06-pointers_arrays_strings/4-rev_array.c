@@ -16,12 +16,14 @@ void reverse_array(int *a, int n)
 int v;
 int f;
 int d;
+int *p;
 
-
+p = a;
 d = n / 2;
 
 for (v = 0; v < d; v++)
 {
+p++;
 f = a[v];
 a[v] = a[n - v - 1];
 a[n - v - 1] = f;
