@@ -3,20 +3,20 @@
 /**
  * *string_toupper -function that changes all lowercase letters of\n
  * a string to uppercase.
- * @V:string type pointer
+ * @f:string type pointer
  * Return:a string %s.
  */
 
-char *string_toupper(char *V)
+char *string_toupper(char *f)
 {
 int v;
 
-for (v = 0; (V[v] = '\0'); v++)
+for (v = 0; (f[v] = '\0'); v++)
 {
-if (V[v] >= 96 && V[v] <= 123)
+if (f[v] >= 96 && f[v] <= 123)
 {
-V[v] -= 32;
+f[v] -= 32;
 }
 }
-return (V);
+return (f);
 }
