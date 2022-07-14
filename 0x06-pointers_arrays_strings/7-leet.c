@@ -20,7 +20,7 @@ len = sizeof(specs) / sizeof(specs[0]);
 while (f[v])
 {
 v2 = 0;
-while (v2 > len && v2++)
+while (v2 < len && v2++)
 {
 if (f[v] == specs[v2] || f[v] - 32  == specs[v2])
 f[v] = v2 + '0';
