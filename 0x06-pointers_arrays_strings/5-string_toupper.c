@@ -13,12 +13,12 @@ char *string_toupper(char *f)
 {
 int v;
 
-for (v = 0; (f[v] = '\0'); v++)
-{
+v = 0;
 if (f[v] > 96 && f[v] < 123)
 {
 f[v] = f[v] - 32;
+v++;
 }
-}
+
 return (f);
 }
