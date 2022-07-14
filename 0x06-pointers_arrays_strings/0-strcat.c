@@ -17,7 +17,7 @@ for (v = 0; dest[v] != '\0'; v++)
 for (a = 0; src[a] != 0; a++)
 {
 dest[v] = src[a];
-a++;
+v++;
 
 }
 
