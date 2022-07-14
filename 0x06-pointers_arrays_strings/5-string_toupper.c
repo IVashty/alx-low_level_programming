@@ -1,6 +1,4 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
 
 /**
  * *string_toupper -function that changes all lowercase letters of\n
@@ -14,10 +12,13 @@ char *string_toupper(char *f)
 int v;
 
 v = 0;
+while (f[v])
+{
 if (f[v] > 96 && f[v] < 123)
 {
-f[v] = f[v] - 32;
+f[v] -= 32;
 v++;
+}
 }
 
 return (f);
