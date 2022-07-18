@@ -16,19 +16,22 @@ unsigned int j;
 
 v = 0;
 j = 0;
-f = 0;
 
 while (accept[v])
 {
-while (s[f] != 32)
+f = 0;
+while (s[f] != '\0')
 {
-if (accept[v] == s[f])
+if (accept[f] == s[v])
 {
 j++;
 }
 v++;
 
 }
-return (j);
+if (accept[f] == '\0')
+break;
+v++;
 }
+return (j);
 }
