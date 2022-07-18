@@ -16,6 +16,7 @@ v = 0;
 while (v < n)
 {
 dest[v] = src[v];
+v++;
 }
 
 return (dest);

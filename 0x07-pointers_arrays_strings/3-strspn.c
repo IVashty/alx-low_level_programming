@@ -18,6 +18,8 @@ v = 0;
 j = 0;
 f = 0;
 
+while (accept[v])
+{
 while (s[f] != 32)
 {
 if (accept[v] == s[f])
@@ -28,4 +30,5 @@ v++;
 
 }
 return (j);
+}
 }
