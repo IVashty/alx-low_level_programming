@@ -31,5 +31,5 @@ f++;
 }
 v++;
 }
-return (f);
+return (j);
 }
