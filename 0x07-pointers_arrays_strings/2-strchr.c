@@ -11,18 +11,20 @@
 char *_strchr(char *s, char c)
 {
 int v;
+int j;
 
-v = 0;
-while (s[v] == c)
+v = 1;
+while (v)
+j = s[v]++;
 {
-if (v == c)
-return (s);
-if ((s[v] + 1) == c)
+if (j == c)
 {
-return (s + 1);
-s++;
+return (s - 1);
+}
+if (j == 0)
+{
+return ('\0');
 }
 }
-
-return (s + 1);
+return (0);
 }
