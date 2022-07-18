@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+
 
 /**
  * *_strchr(char *s, char c)-function that locates a character in a tring.
@@ -23,7 +25,7 @@ return (s - 1);
 }
 if (j == 0)
 {
-return ('\0');
+return (NULL);
 }
 }
 return (0);
