@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 
 
 /**
@@ -24,9 +23,8 @@ if (j == c)
 return (s - 1);
 }
 if (j == 0)
-{
-return (NULL);
+
+return ('\0');
+
 }
-}
-return (0);
 }
