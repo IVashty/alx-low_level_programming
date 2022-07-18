@@ -22,16 +22,14 @@ while (accept[v])
 f = 0;
 while (s[f] != '\0')
 {
-if (accept[f] == s[v])
+if (accept[v] == s[f])
 {
 j++;
 }
-v++;
+f++;
 
 }
-if (accept[f] == '\0')
-break;
 v++;
 }
-return (j);
+return (f);
 }
