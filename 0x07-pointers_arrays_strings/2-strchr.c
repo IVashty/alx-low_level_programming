@@ -1,6 +1,4 @@
 #include "main.h"
-
-
 /**
  * *_strchr(char *s, char c)-function that locates a character in a tring.
  * @s:string type pointer.
@@ -11,20 +9,15 @@
 
 char *_strchr(char *s, char c)
 {
-int v;
-int j;
-
-v = 1;
-while (v)
-j = *s++;
+while (*s != '\0')
 {
-if (j == c)
-{
-return (s - 1);
-}
-if (j == 0)
+if (*s == c)
 
-return ('\0');
-
+return (s);
+else if ((*s + 1) == c)
+return (s + 1);
+s++;
 }
+
+return (s + 1);
 }
