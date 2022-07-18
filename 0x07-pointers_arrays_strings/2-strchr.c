@@ -15,7 +15,7 @@ int j;
 
 v = 1;
 while (v)
-j = s[v]++;
+j = *s++;
 {
 if (j == c)
 {
