@@ -18,6 +18,7 @@ while (n > 0)
 {
 s[v] = b;
 v++;
+n--;
 }
 
 return (s);
