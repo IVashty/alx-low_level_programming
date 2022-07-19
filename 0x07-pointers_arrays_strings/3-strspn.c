@@ -20,7 +20,7 @@ j = 0;
 while (accept[v])
 {
 f = 0;
-while (s[f] != '\0')
+while (s[f] != 32)
 {
 if (accept[v] == s[f])
 {
