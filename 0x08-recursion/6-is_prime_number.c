@@ -11,15 +11,10 @@ int ans(int, int);
 int is_prime_number(int n)
 {
 if (n < 2)
-{
 return (0);
-}
-else if (n < 4)
-{
+if (n < 4)
+return (1);
 return (ans(n, 2));
-}
-else
-return (0);
 }
 
 /**
