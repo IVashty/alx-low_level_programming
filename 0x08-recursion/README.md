@@ -6,4 +6,6 @@
 
 2. A function that returns the length of a string.
 
+3. A function that returns the factorial of a given number.
+
 
