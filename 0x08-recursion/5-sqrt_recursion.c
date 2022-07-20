@@ -1,5 +1,7 @@
 #include "main.h"
 
+int ans(int, int);
+
 /**
  * _sqrt_recursion -function that returns the natural square root of a number.
  * @n:integer type of value.
@@ -8,14 +10,24 @@
 
 int _sqrt_recursion(int n)
 {
-if (n < 0)
+return (ans(n, 1));
+}
+
+int ans(int j, int v)
+{
+int sqrt;
+
+sqrt = v * v;
+if (sqrt > j)
 {
 return (-1);
 }
-else if (n <= 1)
+else if (sqrt == j)
 {
-return (1);
+return (v);
 }
+else if (sqrt < j)
+return (ans(j, v + 1));
 else
-return (n / _sqrt_recursion(n - 1));
+return (-1);
 }
