@@ -3,7 +3,7 @@
 int ans(int, int);
 
 /**
- * _sqrt_recursion -function that returns the natural square root of a number.
+ * _sqrt_recursion -function that returns the natural square root.
  * @n:integer type of value.
  * Return:-1 if n doesnt have a natural squarerroot
  */
@@ -12,6 +12,13 @@ int _sqrt_recursion(int n)
 {
 return (ans(n, 1));
 }
+
+/**
+ * ans- recursive function that will be indirectly represent a parent function
+ * @j:integer value.
+ * @v:integer value.
+ * Return:parent function
+ */
 
 int ans(int j, int v)
 {
