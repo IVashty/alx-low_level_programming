@@ -37,14 +37,17 @@ return (NULL);
 for (v = 0; v < height; v++)
 {
 f[v] = malloc(width * sizeof(int));
+if (f[v] == NULL)
 {
-for (a = v; a >= 0; v++)
+for (a = v; a >= 0; a--)
 {
+free(f[a]);
+}
 free(f);
 return (NULL);
 }
 }
-}
+
 
 for (s = 0; s < height; s++)
 {
