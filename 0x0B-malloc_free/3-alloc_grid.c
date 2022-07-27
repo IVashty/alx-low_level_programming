@@ -47,12 +47,9 @@ free(f);
 return (NULL);
 }
 }
-
-
 for (s = 0; s < height; s++)
-{
 for (h = 0; h < width; h++)
 f[s][h] = 0;
-}
+
 return (f);
 }
