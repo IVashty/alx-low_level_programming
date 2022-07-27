@@ -26,10 +26,10 @@ if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
 s2 = "";
-while (s1[v] && s2[v])
-v++;
-while (s1[a] && s2[a])
-a++;
+for (v = 0; s1[v] != '\0'; v++)
+;
+for (a = 0; s2[a] != '\0'; a++)
+;
 
 f = malloc((v *sizeof(*s1)) + (a *sizeof(*s2) + 1));
 if (f == NULL)
