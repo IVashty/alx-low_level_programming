@@ -14,8 +14,9 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 
-int *f;
+void *f;
 unsigned int v;
+char *a;
 
 if (nmemb <= 0 || size <= 0)
 return (NULL);
@@ -25,9 +26,9 @@ f = malloc(nmemb * size);
 if (f == NULL)
 return (NULL);
 
-
+a = f;
 for (v = 0; v < (nmemb * size); v++)
-f[v] = 0;
+a[v] = '\0';
 
 
 return (f);
