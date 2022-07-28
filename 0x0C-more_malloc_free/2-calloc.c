@@ -14,10 +14,10 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 
-unsigned int *f;
+int *f;
 unsigned int v;
 
-if (nmemb == 0 || size == 0)
+if (nmemb <= 0 || size <= 0)
 return (NULL);
 
 
