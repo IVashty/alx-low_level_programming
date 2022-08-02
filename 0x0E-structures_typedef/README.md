@@ -5,4 +5,6 @@
         - age, type = float
         - owner, type = char *
 
+1. A function that initializes a variable of type struct dog
 
+2. 

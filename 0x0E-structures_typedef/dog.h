@@ -1,25 +1,18 @@
 #ifndef DOG_H
-#define DEFINE_H
-
+#define D0G_H
 /**
  * struct dog - structure definition of a dog.
  * @name:character string
  * @age:integer
  * @owner:character string
  */
-
-struct dog
+typedef struct dog
 {
 char *name;
 float age;
 char *owner;
-};
+} dog_t;
 
-/**
- * dog_t-typedef for struct dog
- */
-
-typedef struct dog dog_t;
-
+void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif
