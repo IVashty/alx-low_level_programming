@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
+#include <stddef.h>
 
 
 /**
@@ -9,15 +10,15 @@
  */
 size_t print_list(const list_t *h)
 {
-size_t v = 0;
+size_t v;
+const list_t *f;
 
-while (h)
+v = 0;
+f = h;
+while (f != NULL)
 {
-if (!h->str)
-printf("[0] (nil)\n");
-else
-printf("[%u] %s\n", h->len, h->str);
-h = h->next;
+printf("[%d] %s\n", f->len, f->str);
+f = f->next;
 v++;
 }
 
