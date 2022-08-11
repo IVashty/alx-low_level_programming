@@ -17,6 +17,7 @@ v = 0;
 f = h;
 while (f != NULL)
 {
+printf("[0] (nil)\n");
 printf("[%d] %s\n", f->len, f->str);
 f = f->next;
 v++;
