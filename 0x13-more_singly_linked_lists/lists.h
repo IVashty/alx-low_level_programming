@@ -33,5 +33,10 @@ listint_t *add_nodeint(listint_t **head, const int n);
 /*3-add_nodeint_end*/
 listint_t *add_nodeint_end(listint_t **head, const int n);
 
+/*4-free_listint function*/
+void free_listint(listint_t *head);
+
+
+
 
 #endif
