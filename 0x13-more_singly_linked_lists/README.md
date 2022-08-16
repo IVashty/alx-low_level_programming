@@ -19,4 +19,6 @@
 
 8. A function that returns the sum of all the dat (n) of a listint_t linked list.
 
+9. A function that inserts a new node at a given position.
 
+10
