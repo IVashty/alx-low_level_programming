@@ -30,7 +30,8 @@ size_t listint_len(const listint_t *h);
 /*2-add_nodeint function*/
 listint_t *add_nodeint(listint_t **head, const int n);
 
-
+/*3-add_nodeint_end*/
+listint_t *add_nodeint_end(listint_t **head, const int n);
 
 
 #endif
