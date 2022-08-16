@@ -45,7 +45,8 @@ int pop_listint(listint_t **head);
 /*7-get_nodeint function*/
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 
-
+/*8-sum_listint function*/
+int sum_listint(listint_t *head);
 
 
 #endif
