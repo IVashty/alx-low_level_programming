@@ -4,6 +4,9 @@
 #include <stdarg.h>
 #include <stddef.h>
 #include <stdio.h>
+#include <stdlib.h>
+
+
 /**
  * struct listint_s - singly linked list
  * @n: integer
@@ -23,6 +26,10 @@ size_t print_listint(const listint_t *h);
 
 /*1-listint_len function*/
 size_t listint_len(const listint_t *h);
+
+/*2-add_nodeint function*/
+listint_t *add_nodeint(listint_t **head, const int n);
+
 
 
 
