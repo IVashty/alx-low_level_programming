@@ -42,5 +42,10 @@ void free_listint2(listint_t **head);
 /*6-pop_listint function*/
 int pop_listint(listint_t **head);
 
+/*7-get_nodeint function*/
+int sum_listint(listint_t *head);
+
+
+
 
 #endif
