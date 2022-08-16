@@ -20,7 +20,7 @@ return (NULL);
 data->n = n;
 data->next = NULL;
 
-if(*head == NULL)
+if (*head == NULL)
 {
 *head = data;
 return (data);
