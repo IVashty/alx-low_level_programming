@@ -39,7 +39,8 @@ void free_listint(listint_t *head);
 /*5-free_listint2 function*/
 void free_listint2(listint_t **head);
 
-
+/*6-pop_listint function*/
+int pop_listint(listint_t **head);
 
 
 #endif
