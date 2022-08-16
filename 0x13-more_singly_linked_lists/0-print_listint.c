@@ -14,12 +14,11 @@ size_t nodes;
 
 nodes = 0;
 
-while (h)
+while (h != NULL)
 {
 printf("%d\n", h->n);
 nodes++;
 h = h->next;
-
 }
 
 return (nodes);

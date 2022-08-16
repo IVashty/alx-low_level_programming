@@ -21,6 +21,9 @@ typedef struct listint_s
 /*0-print_listint.c function*/
 size_t print_listint(const listint_t *h);
 
+/*1-listint_len function*/
+size_t listint_len(const listint_t *h);
+
 
 
 #endif
