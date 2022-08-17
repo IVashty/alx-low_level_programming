@@ -26,3 +26,6 @@
 11. A function that reverses a listint_t linked list.
 
 
+12. A function that prints a listint_t linked list.
+
+
