@@ -23,3 +23,6 @@
 
 10. A function that deletes the node at index of a listint_t linked list.
 
+11. A function that reverses a listint_t linked list.
+
+
