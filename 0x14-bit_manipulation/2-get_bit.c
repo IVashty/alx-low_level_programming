@@ -13,7 +13,7 @@ int gbit;
 if (index > 63)
 return (-1);
 
-gbit = (n >> index) & 1;i
+gbit = (n >> index) & 1;
 
 return (gbit);
 }
