@@ -8,14 +8,13 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-
-int getbit;
+int gbit;
 
 if (index > 63)
 return (-1);
 
-getbit = (n >> index) & 1;
+gbit = (n >> index) & 1;i
 
-return (getbit);
+return (gbit);
 }
 }
