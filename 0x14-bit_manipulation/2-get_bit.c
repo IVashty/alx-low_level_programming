@@ -17,4 +17,4 @@ gbit = (n >> index) & 1;i
 
 return (gbit);
 }
-}
+
