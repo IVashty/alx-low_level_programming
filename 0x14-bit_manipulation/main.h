@@ -3,6 +3,7 @@
 
 /*_putchar function*/
 int _putchar(char c);
+
 /*0-binary_to_uint function.*/
 unsigned int binary_to_uint(const char *b);
 

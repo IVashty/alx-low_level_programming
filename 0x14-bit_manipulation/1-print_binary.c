@@ -7,8 +7,8 @@
 
 void print_binary(unsigned long int n)
 {
-int v, c = 0;
-unsigned long int current;
+int v, k = 0;
+unsigned long int c;
 
 for (v = 63; v >= 0; v--)
 {
@@ -17,11 +17,11 @@ c = n >> v;
 if (c & 1)
 {
 _putchar('1');
-c++;
+k++;
 }
-else if (c)
+else if (k)
 _putchar('0');
 }
-if (!c)
+if (!k)
 _putchar('0');
 }
