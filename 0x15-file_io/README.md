@@ -4,4 +4,6 @@
 
 1. A function that creates a file.
 
+2. A function that appends texts at the end of a file.
 
+3.
