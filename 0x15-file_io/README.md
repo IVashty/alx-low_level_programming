@@ -6,4 +6,6 @@
 
 2. A function that appends texts at the end of a file.
 
-3.
+3. A program that copies the content of a file to a another file.
+
+

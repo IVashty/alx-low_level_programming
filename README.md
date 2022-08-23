@@ -1,4 +1,4 @@
-# alx-low_level_programming#
+i# alx-low_level_programming#
 introduction to C programming
 
 ### REQUIREMENTS ###
@@ -39,3 +39,17 @@ Additional rules:no need to learn about pointers to functions, arrays of structu
 Additional rules:
         -you are not allowed to use any kind of loops.
         -youare not allowed to use static variables.
+
+*0x13-more_singly_linked_lists
+-The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called lists.h
+-Don’t forget to push your header file
+-All your header files should be include guarded
+
+
+
+*0x15-file_io
+-Don’t forget to push your header file
+-All your header files should be include guarded
+-Tip: always prefer using symbolic constants (POSIX) vs numbers when it makes sense. For instance read(STDIN_FILENO, ... vs read(0, ...
+
+
