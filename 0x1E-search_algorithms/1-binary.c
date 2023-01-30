@@ -19,17 +19,17 @@ return (-1);
 while (size)
 {
 for (v = 0, printf("Searching in array: "); v < size; v++)
-printf("%d%s", a[v], i + 1 == size ? "\n" : ", ");
+printf("%d%s", a[v], v + 1 == size ? "\n" : ", ");
 
-i = (size - 1) / 2;
-if (a[i] == value)
-return ((a - array) + i);
-else if (a[i] > value)
-size = i;
+v = (size - 1) / 2;
+if (a[v] == value)
+return ((a - array) + v);
+else if (a[v] > value)
+size = v;
 else
 {
-a += (i + 1);
-size -= (i + 1);
+a += (v + 1);
+size -= (v + 1);
 }
 }
 return (-1);
